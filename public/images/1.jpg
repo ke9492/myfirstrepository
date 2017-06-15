@@ -1,0 +1,14 @@
+ 3 .gitignore
+@@ -3,5 +3,4 @@ config/*
+logs
+npm-debug.log
+node_modules
+-public/img
+-coverage
++coverage
+4 public/img/.gitignore
+@@ -0,0 +1,4 @@
++# Ignore everything in this directory
++*
++# Except this file
++!.gitignore
